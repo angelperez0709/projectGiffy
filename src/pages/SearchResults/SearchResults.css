@@ -1,0 +1,9 @@
+.listOfGifs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 30px;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}

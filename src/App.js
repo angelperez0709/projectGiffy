@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import {Route} from 'wouter';
+import {Route,Link} from 'wouter';
 import Home from './pages/Home'
 import SearchResults from './pages/SearchResults'
 import StaticContext from './Context/StaticContext'
@@ -12,6 +12,9 @@ function App() {
     <StaticContext.Provider 
     value={{name:'angel',suscribe:true}}>
     <div className="App">
+      <header className="App-header">
+        <Link to={'/'}>Giffy</Link>
+      </header>
       <section className="App-content">
       <GifsContextProvider>
         <Route path='/' component={Home} />

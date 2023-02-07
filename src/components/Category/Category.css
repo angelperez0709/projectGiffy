@@ -1,0 +1,24 @@
+.category{
+    animation: trending-move 15s linear infinite;
+    animation-delay: 1s;
+    width: 5em;
+    max-width: 10em;
+}
+.category a{
+    color: white;
+    text-decoration: none;
+    width: inherit;
+    display: block;
+    font-size: 0.7em;
+}
+
+@keyframes trending-move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+

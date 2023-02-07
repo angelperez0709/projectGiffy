@@ -1,0 +1,31 @@
+.searcher{
+    display: flex;
+    justify-content: center;
+
+}
+.searcher span{
+    cursor: pointer;
+    background-color: green;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 0.7em;
+}
+.searcher input{
+    padding-left: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.trends{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:10px;
+}
+.trends img {
+    width: 24px;
+}

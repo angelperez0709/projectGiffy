@@ -1,0 +1,21 @@
+.trends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trends-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 50vw;
+    max-width: 50vw;
+    overflow: scroll;
+    scrollbar-width: 1px;
+    height: 80px;
+}
+.trends-name a {
+    white-space: nowrap;
+  }

@@ -1,24 +1,21 @@
-.category{
-    animation: trending-move 15s linear infinite;
-    animation-delay: 1s;
-    width: 5em;
-    max-width: 10em;
-}
 .category a{
     color: white;
     text-decoration: none;
     width: inherit;
     display: block;
-    font-size: 0.7em;
+    font-size: 16px;
+    height: min-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #50c878;       
+    transition: all 0.3s ease-in-out;
+      
+}  
+.category a:hover {
+    background-color: #45c832;;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-@keyframes trending-move {
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
 
 

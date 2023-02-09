@@ -8,6 +8,7 @@ useEffect(function(){
     const keywordToUse = keyword || localStorage.getItem('lastKeyword') || 'random'
     setLoading(true)
     getGifs({keyword: keywordToUse}).then(gifs=>{
+
         setGifs(gifs)
         setLoading(false)
         localStorage.setItem('lastKeyword',keywordToUse )

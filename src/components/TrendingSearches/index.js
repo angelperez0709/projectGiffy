@@ -1,7 +1,6 @@
 import React, { useEffect, useState,useRef } from "react";
-import getTrendingGifs from '../../services/getTrendingGifs'
-import Category from "../Category";
-import flame from '../../assets/flame.png'
+import getTrendingGifs from 'services/getTrendingGifs'
+import Category from "components/Category";
 import './TrendingSearches.css'
 export default function TrendingSearches(){
     const carrouselRef = useRef();
@@ -12,10 +11,6 @@ export default function TrendingSearches(){
     },[])
     return  <>
     <div className="trends">
-        <div>
-            <span>Trends</span>
-            <img src={flame}/>
-        </div>
         <div className="trends-name" 
         ref={carrouselRef}
         >

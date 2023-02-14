@@ -1,0 +1,34 @@
+.searcher{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  
+  }
+  .searcher img{
+    cursor: pointer;
+    background-color: #E6FFFF;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 52px;
+    aspect-ratio: 1/1;
+  }
+  .searcher input{
+    padding-left: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 70%;
+  }
+  .searcher input::placeholder{
+    color: #555;
+    animation: movedor 3s ease 1s infinite;
+  }
+  @keyframes movedor {
+    to{
+      top: 100px;
+    }
+  }

@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+}
+.header > form{
+    width: 100vw;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-image: linear-gradient(to right, #003366, #005b96, #0077b6, #119da4) 0 0 1 0 stretch;
+}
